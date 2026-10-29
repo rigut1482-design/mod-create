@@ -12,5 +12,5 @@
     "S": { "item": "create:shaft" },
     "R": { "item": "create:rotation_speed_controller" }
   },
-  "result": { "item": "compactspeedctrl:compact_speed_controller", "count": 1 }
+  "result": { "id": "compactspeedctrl:compact_speed_controller", "count": 1 }
 }
