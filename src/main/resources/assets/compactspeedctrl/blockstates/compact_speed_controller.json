@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "axis=x": { "model": "compactspeedctrl:block/compact_speed_controller", "y": 90 },
+    "axis=z": { "model": "compactspeedctrl:block/compact_speed_controller" }
+  }
+}
