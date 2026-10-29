@@ -39,6 +39,12 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
 
+jar {
+    manifest {
+        attributes 'MixinConfigs': 'compactspeedctrl.mixins.json'
+    }
+}
+
 processResources {
     inputs.property 'version', project.version
     filesMatching('META-INF/neoforge.mods.toml') {
